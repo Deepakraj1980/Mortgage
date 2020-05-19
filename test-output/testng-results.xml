@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1345" started-at="2020-05-17T03:42:32 EDT" finished-at="2020-05-17T03:42:33 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1345" started-at="2020-05-17T03:42:32 EDT" finished-at="2020-05-17T03:42:33 EDT">
+      <class name="test.Tester">
+        <test-method status="PASS" signature="fast(java.util.Map)[pri:0, instance:test.Tester@131276c2]" name="fast" duration-ms="19" started-at="2020-05-17T03:42:33 EDT" data-provider="testData" finished-at="2020-05-17T03:42:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{City=Chennai, Name=Deepak}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fast -->
+        <test-method status="PASS" signature="fast(java.util.Map)[pri:0, instance:test.Tester@131276c2]" name="fast" duration-ms="3" started-at="2020-05-17T03:42:33 EDT" data-provider="testData" finished-at="2020-05-17T03:42:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{City=Pune, Name=Amul}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fast -->
+        <test-method status="PASS" signature="fast(java.util.Map)[pri:0, instance:test.Tester@131276c2]" name="fast" duration-ms="2" started-at="2020-05-17T03:42:33 EDT" data-provider="testData" finished-at="2020-05-17T03:42:33 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{City=Delhi, Name=Vinay}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fast -->
+      </class> <!-- test.Tester -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
